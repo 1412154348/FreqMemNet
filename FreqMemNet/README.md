@@ -60,7 +60,7 @@ python main.py \
   --mode test \
   --dataset-name IRSTD-1k \
   --data-root ./datasets \
-  --weight-path 
+  --weight-path  your weight path
 ```
 
 
@@ -72,9 +72,9 @@ python main.py \
 ├── assets/                 # Figures used by this README
 ├── model/
 │   ├── modules/
-│   │   ├── msad.py         # Multi-Scale Anti-Alias Downsampling
+│   │   ├── ramsad.py         # Multi-Scale Anti-Alias Downsampling
 │   │   └── pgsm.py         # Prototype-Guided Skip Memory
-│   └── rdanet.py           # RDANet architecture
+│   └── freqmemnet.py           # RDANet architecture
 ├── utils/
 │   ├── data.py             # Dataset loading and preprocessing
 │   ├── losses.py           # Training losses
